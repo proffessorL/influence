@@ -1,0 +1,74 @@
+ /* Hero Section */
+        .hero {
+            
+            margin-top: 50px ;
+        }
+
+        .hero-content {
+            
+            
+            background-position: 620px;
+            display: flex;
+            
+            
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-text p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            line-height: 1.6;
+            width: 580px;
+        }
+
+        .btn-primary {
+            background: #e91e63;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: #c2185b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.3);
+        }
+
+        .hero-image {
+            text-align: center;
+            background-image: url(../images/Circle\ design.svg);
+            background-repeat: no-repeat;
+            width: 100%;
+             width: 470px;
+            height: 470px;
+            margin-left: 100px;
+            
+            
+        }
+
+        .hero-img{
+            width: 400px;
+            height: 400px;
+           
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+        }
