@@ -1,15 +1,18 @@
- /* Hero Section */
-        .hero {
+ 
+ 
+ 
+ .hero {
             
-            margin-top: 50px ;
+            
+            
+             margin-left: 150px;
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
         }
 
         .hero-content {
-            
-            
-            background-position: 620px;
             display: flex;
-            
             
             gap: 3rem;
             align-items: center;
@@ -26,7 +29,6 @@
             margin-bottom: 2rem;
             opacity: 0.9;
             line-height: 1.6;
-            width: 580px;
         }
 
         .btn-primary {
@@ -49,26 +51,43 @@
             box-shadow: 0 5px 15px rgba(233, 30, 99, 0.3);
         }
 
+        .image-hero{
+            width: 475px;
+            padding-right: 200px;
+            
+        }
+        #camera-div{
+            margin-left: 130px;
+        }
+
         .hero-image {
             text-align: center;
-            background-image: url(../images/Circle\ design.svg);
+            background-image: url("../images/Circle\ design.svg") ;
             background-repeat: no-repeat;
             width: 100%;
-             width: 470px;
-            height: 470px;
-            margin-left: 100px;
-            
-            
         }
 
-        .hero-img{
-            width: 400px;
-            height: 400px;
-           
-        }
-
-        .hero-image img {
-            max-width: 100%;
-            height: auto;
+         .camera-icon {
+            width: 440px;
+            height: 410px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 4rem;
             filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+        }
+        
+        @media screen and (max-width: 576px) {
+
+            .hero-content{
+                flex-direction: column-reverse;
+            }
+            .hero{
+                margin-left: 0px;
+            }
+
+            
         }
